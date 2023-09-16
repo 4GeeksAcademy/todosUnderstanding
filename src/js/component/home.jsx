@@ -44,7 +44,7 @@ const Home = () => {
 					)}
 					{/* {list.map ((element) => <li>{element} <FontAwesomeIcon icon={faTrash} /></li> )} */}
 					<li>
-						<div>{list.length} Task</div>
+						<div>{list.length} Tasks</div>
 					</li>
 				</ul>
 			</div>
