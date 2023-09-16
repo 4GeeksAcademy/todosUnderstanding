@@ -10,3 +10,27 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    margin-top: 100px;
+    background-color: black;
+}
+
+container{
+    background: beige;
+}
+
+ul li{
+   
+    border: 1px solid grey;
+    padding: 5px;
+    list-style: none;
+    width:50%;
+    margin:auto;
+   margin-bottom: 0%;
+}
+
+input{
+    border: none;
+    width: 100%
+}
+
