@@ -15,10 +15,9 @@ const Home = () => {
 			setInputValue("") 
 		} 
 	}
-
 	return (
 		<div className="container">
-			<div className="text-center" style={{background: "beige", width: "50%", margin: "auto"}}>
+			<div className="text-center" style={{background: "beige", width: "50%", margin: "auto", border: "groove"}}>
 				<h1 className="text-center mt-5">To Do List </h1>
 				<ul>
 					<li> <input type="text" placeholder="What do you need to do?"
@@ -43,18 +42,14 @@ const Home = () => {
 						</li>					
 					)
 					)}
-				
 					{/* {list.map ((element) => <li>{element} <FontAwesomeIcon icon={faTrash} /></li> )} */}
-					
 					<li>
 						<div>{list.length} Task</div>
 					</li>
 				</ul>
-				
 			</div>
 		</div>
 	);
 };
-
 export default Home;
 
